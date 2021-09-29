@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gusta\\OneDrive\\Documentos\\Prova\\Prova.csproj": {}
+    "C:\\Tudum\\Prova-Back-end\\Prova.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gusta\\OneDrive\\Documentos\\Prova\\Prova.csproj": {
+    "C:\\Tudum\\Prova-Back-end\\Prova.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\OneDrive\\Documentos\\Prova\\Prova.csproj",
+        "projectUniqueName": "C:\\Tudum\\Prova-Back-end\\Prova.csproj",
         "projectName": "Prova",
-        "projectPath": "C:\\Users\\gusta\\OneDrive\\Documentos\\Prova\\Prova.csproj",
+        "projectPath": "C:\\Tudum\\Prova-Back-end\\Prova.csproj",
         "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\OneDrive\\Documentos\\Prova\\obj\\",
+        "outputPath": "C:\\Tudum\\Prova-Back-end\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
